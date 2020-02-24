@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+#grad {
+  position: absolute;
+  height: 100%;
+  background-image: linear-gradient(to bottom right, violet, royalblue);
+}
