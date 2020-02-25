@@ -8,14 +8,6 @@
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
 
-    <!-- Bootstrap CSS -->
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-      crossorigin="anonymous"
-    />
-
     <link rel="stylesheet" href="style.css" />
 
     <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
@@ -23,27 +15,29 @@
     <title>GuyF0X portfolio</title>
   </head>
   <body>
-    <nav class="text-center navbar-nav navbar-dark bg-dark">
-      <h1>GuyF0X's portfolio</h1>
-    </nav>
+    <header>
+      <nav>
+        <a href="https://guyf0x.github.io/" id="logo">
+          <h2>GuyF0X's portfolio</h2>
+        </a>
+        <button type="button" id="button">
+          <h4>РУС</h4>
+        </button>
+      </nav>
+      <section>
+        <div class="hero">
+          <img
+            src="https://s1.1zoom.ru/b5050/596/Evening_Forests_Mountains_Firewatch_Campo_Santo_549147_1920x1080.jpg"
+            alt="Cool Nature Art"
+          />
+        </div>
+      </section>
+    </header>
 
-    <div class="container-fluid" id="grad"></div>
+    <div class="slider"></div>
 
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script
-      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TimelineMax.min.js"></script>
+    <script src="app.js"></script>
   </body>
 </html>
